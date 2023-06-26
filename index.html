@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADP Analyst</title>
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js" type="text/javascript"></script>
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-stock.min.js" type="text/javascript"></script>
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-data-adapter.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-data-adapter.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="/images/logo.svg" alt="">
+        </a>
+        <div class="navbar">
+            <ul>
+                <li><a href="#"><i class="fas fas fa-book"></i> About Us</a></li>
+                <li><a href="#container"><i class="fas fa-chart-bar"></i> Chart</a></li>
+                <li><a href="https://mpc.net.vn/lien-he/"><i class="fas fa-envelope"></i> Contact</a></li>
+                <!-- <li><a href="#"><i class="fas fa-bars" id="menu-btn"></i></a></li> -->
+            </ul>
+        </div>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    </header>
+    <header>
+        <section class="home" id="home">
+            <div class="content">
+                <h3>ADP Service Trading Co, Ltd</h3>
+                <p>Operating with the goal of bringing great value in the supply chain of consumer products in the Asian
+                    market and the big data system of the FMCG industry</p>
+                <a href="#container" class="btn">Start Now!</a>
+            </div>
+        </section>
+    </header>
+    <main class="main-content">
+        <section class="banner-slideshow">
+            <div class="banner"></div>
+        </section>
+        <section class="about-section" id="about">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Chart Data</h2>
+                <p class="p-paragraph">Observe the Price Fluctuations in the FMCG Industry</p>
+            </div>
+
+        </section>
+        <div class="custom-select-wrapper">
+            <select id="skuSelect" class="custom-select"></select>
+        </div>
+        <div id="container"></div>
+        <script src="script.js"></script>
+    </main>
+
+</body>
+
+</html>
